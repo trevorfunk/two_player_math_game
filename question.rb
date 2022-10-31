@@ -7,9 +7,8 @@ class Question
   @sum = @num1 + @num2
  end
 
-end
+ def question
+  print "What is the sum of #{@num1} + #{@num2}"
+ end
 
-p = Question.new
-puts p.num1
-puts p.num2
-puts p.sum
+end
